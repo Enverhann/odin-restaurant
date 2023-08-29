@@ -94,7 +94,7 @@
   },
   "scripts": {
     "build": "webpack --mode production",
-    "deploy": "git subtree push --prefix dist origin gh-pages"
+    "deploy": "git subtree push --prefix dist origin git-pages"
   },
   "author": "",
   "license": "ISC"
