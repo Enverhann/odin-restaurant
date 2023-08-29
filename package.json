@@ -93,8 +93,9 @@
     "style-loader": "^3.3.3"
   },
   "scripts": {
-    "build": "webpack --mode production"
-},
+    "build": "webpack --mode production",
+    "deploy": "gh-pages --dist 'dist' --branch 'release'"
+  },
   "author": "",
   "license": "ISC"
 }
